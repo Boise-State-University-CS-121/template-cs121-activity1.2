@@ -25,11 +25,12 @@ follow the instructions and use the Terminal.
 
 First, open the Terminal inside VSCode. To open the Terminal, look in
 the menu bar at the top of the window.  Choose Terminal --> New
-Terminal. The first part of the prompt (user@nodeX) shows your user
-name and the name of the particular workstation, or node, that you are
-logged on. The “~”, or tilde, symbol tells you that you are currently
-located in your onyx home directory. This value always displays your
-current directory, so it changes as you move around your file system.
+Terminal. It should open at the bottom of the window.
+
+The first part of the prompt (user@nodeX) shows your user name and the
+name of the particular workstation, or node, that you are logged
+on. It also always displays your current directory, so it changes as
+you move around your file system.
 
 ### Navigating the file system
 
@@ -102,10 +103,10 @@ You should see the output of your program in the Terminal!
 
 Once you have your version of `HelloClass.java` running, try changing
 things in the code to see what kinds of error messages you get when
-you compile. After each change, re-compile the program and run
-it. Then restore the program to its working state before you try to
-create another error. Document your observations in your reflection
-(which you will submit on Canvas).
+you compile. After each change, save your file, re-compile the program
+and run it. Then restore the program to its working state before you
+try to create another error. Document your observations in your
+reflection in REFLECTION.md.
 
 Try the following:
 
@@ -131,7 +132,7 @@ updating the values with your name and your BSU email:
 ```
 git config --global user.name "Your Name"
 git config --global user.email "username@u.boisestate.edu"
-git config pull.rebase false   
+git config --global pull.rebase false   
 ```
 
 
