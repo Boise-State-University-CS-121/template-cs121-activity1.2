@@ -1,6 +1,6 @@
 ![CS121 Banner](images/CS121-BANNER.svg)
 
-# Module 1 Activity 1 - Hello, Class!
+# Module 1 Activity 2 - Hello, Class!
 
 ## Purpose & Concepts
 
@@ -40,10 +40,10 @@ you want to move into (NOTE: Do not include the ‘$’ symbol when you
 type your command. The examples below show that you should type the
 command after the ‘$’ displayed by the command prompt).
 
-Change into the a1.1 folder:
+Change into the a1.2 folder:
 
 ```
-cd a1.1
+cd a1.2
 ```
 
 Create a new Java file in this folder:
@@ -72,7 +72,7 @@ In HelloClass.java, enter the following program (don't include the ticks):
 
 **Save your file!** The compiler will compile what is written to disk,
   so it won't work if you don't save the file first.  Open the
-  Terminal again if it was closed and move back to a1.1.
+  Terminal again if it was closed and move back to a1.2.
 
 Verify you're in the right folder by using `ls` (lists the contents of the folder):
 
@@ -80,7 +80,7 @@ Verify you're in the right folder by using `ls` (lists the contents of the folde
 ls
 ```
 
-You should see `HelloClass.java`.  If you don't, change into the a1.1 folder.
+You should see `HelloClass.java`.  If you don't, change into the a1.2 folder.
 
 To compile, you use the Java compiler, `javac`:
 
@@ -126,8 +126,9 @@ Open REFLECTION.md and fill it out.
 ## Submitting
 
 You will submit your work using git.  First, make sure you've
-configured git. In the Terminal, enter the following commands,
-updating the values with your name and your BSU email:
+configured git. **You will only do this step once!** In the Terminal,
+enter the following commands, updating the values with your name and
+your BSU email:
 
 ```
 git config --global user.name "Your Name"
@@ -136,7 +137,9 @@ git config --global pull.rebase false
 ```
 
 
-There are three steps to submitting to GitHub
+There are three steps to submitting to GitHub, which you will do every
+time you want to update your files on GitHub.
+
 1. Add your files (stage for commit)
 2. Commit with a commit message
 3. Push your changes
@@ -157,7 +160,7 @@ message. Be careful to ensure that your punctuation matches the
 following exactly (including spaces and quotes!)
 
 ```
-git commit -m"Finished activity 1"
+git commit -m"Finished activity 1.2"
 ```
 
 ### Step 3: Push your files
