@@ -23,7 +23,18 @@ isn't configured to work properly with VSCode, so trying to use the
 GUI will give you varying degrees of success.  For guaranteed success,
 follow the instructions and use the Terminal.
 
-First, open the Terminal inside VSCode. To open the Terminal, look in
+
+### Configure VS Code
+
+First, we need to configure VS Code to be useful for you.  Open your settings: File -> Preferences -> Settings.
+
+1. In the search bar at the top, search for "disable".  Check the setting Chat: Disable AI Features (the box should be checked next to "Disable and hide built-in AI features")
+2. In the search bar, search for "inline suggest".  You'll have to look down the list, but find "Editor – Inline Suggest: Enabled" and uncheck the box (to disable it)
+
+
+### Find the terminal
+
+Open the Terminal inside VSCode. To open the Terminal, look in
 the menu bar at the top of the window.  Choose Terminal --> New
 Terminal. It should open at the bottom of the window.
 

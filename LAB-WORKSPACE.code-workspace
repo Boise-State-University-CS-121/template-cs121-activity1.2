@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "LabGuide"
+		},
+		{
+			"path": "a3.2-GeocentricOrbit"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/.placeholder": true,
+			"**/.gitkeep": true
+		},
+		"git.openRepositoryInParentFolders":"always",
+		"chat.instructionsFilesLocations": {
+ 		    ".github/instructions": true
+		 },
+		 "chat.useAgentsMdFile": true,
+		 "editor.inlineSuggest.enabled": false,
+		 
+	}
+}
