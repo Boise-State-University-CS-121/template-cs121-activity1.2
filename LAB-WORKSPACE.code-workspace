@@ -19,10 +19,10 @@
 		},
 		"git.openRepositoryInParentFolders":"always",
 		"chat.instructionsFilesLocations": {
- 		    ".github/instructions": true
+ 		    "LabGuide/.github/instructions": true
 		 },
 		 "chat.useAgentsMdFile": true,
 		 "editor.inlineSuggest.enabled": false,
-		 
+		 "github.copilot.editor.enableCodeActions": false		 
 	}
 }
